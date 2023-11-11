@@ -22,6 +22,8 @@ def special(char_name, char_class):
         return (f'{char_name} применил специальное умение «Атака {5 + 40}»')
     if char_class == 'healer':
         return (f'{char_name} применил специальное умение «Защита {10 + 30}»')
+    else:
+        return (f'{char_name} не применил специальное умение')    
 
 
 
